@@ -1,0 +1,72 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff; /* изменяем цвет фона на темно-серый */
+  color: #eee; /* изменяем цвет текста на светлый */
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+
+  margin: 0 auto;
+  background: #444; /* изменяем цвет фона блока на более темный */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #fff; /* изменяем цвет заголовка на белый */
+  text-align: center;
+}
+
+form {
+  display: flex;
+  margin-bottom: 50px;
+  color: #fff; /* изменяем цвет заголовка на белый */
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #777; /* уменьшаем контраст границы */
+  border-radius: 4px;
+  background-color: #ffffff; /* изменяем цвет фона текстового поля на более темный */
+  color: #000000; /* изменяем цвет текста в текстовом поле на светлый */
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #126aef; /* изменяем цвет кнопки на красный */
+  color: #fff; /* изменяем цвет текста на белый */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0938d1; /* изменяем цвет кнопки при наведении */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: rgba(209, 9, 9, 0.29); /* изменяем цвет фона элемента списка на более темный */
+  border-bottom: 4px solid #000000; /* увеличиваем контраст границы */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li button {
+  margin-left: 200px;
+}
